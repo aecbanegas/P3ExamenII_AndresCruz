@@ -9,7 +9,7 @@ string Militar::getRango(){
     return rango;
 }
 string Militar::toString(){
-    
+    //retorna segun el formato y rango la informacion del militar
     if(rango=="General")
         return nombre+" - "+rango;
     if(rango=="Coronel")
