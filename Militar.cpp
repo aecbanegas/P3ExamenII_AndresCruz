@@ -28,3 +28,6 @@ string Militar::toString(){
         return "                            "+nombre+" - "+rango;
     return "Error";
 }
+string Militar::getNombre(){
+    return nombre;
+}

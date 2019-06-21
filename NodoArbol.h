@@ -10,4 +10,6 @@ class NodoArbol{
         ~NodoArbol();
         NodoArbol(Militar*);
         void agregarHijo(Militar*);
+        vector<NodoArbol*> getHijos();
+        Militar* getMilitar();
 };

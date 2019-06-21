@@ -11,4 +11,5 @@ class Militar{
         Militar(string,string,string,string);
         string toString();
         string getRango();
+        string getNombre();
 };

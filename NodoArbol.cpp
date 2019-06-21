@@ -14,3 +14,9 @@ void NodoArbol::agregarHijo(Militar* Pmilitar){
     NodoArbol* Pnodohijo=new NodoArbol(Pmilitar);
     NodoHijos.push_back(Pnodohijo);
 }
+vector<NodoArbol*> NodoArbol::getHijos(){
+    return NodoHijos;
+}
+Militar* NodoArbol::getMilitar(){
+    return militar;
+}
